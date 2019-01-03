@@ -1,0 +1,26 @@
+{
+  "name": "rmt",
+  "version": "1.0.0",
+  "description": "Reliable Machinery Transport Website",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/koopcodes/RMTweb.git"
+  },
+  "keywords": [
+    "RMT",
+    "Website",
+    "HTML",
+    "CSS",
+    "JS"
+  ],
+  "author": "koop",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/koopcodes/RMTweb/issues"
+  },
+  "homepage": "https://github.com/koopcodes/RMTweb#readme"
+}

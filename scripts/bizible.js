@@ -1642,7 +1642,7 @@
 			? ((c.readyState = document.readyState),
 			  (c.domIsReady =
 					'complete' == c.readyState ||
-					(~navigator.userAgent.indexOf('AppleWebKit/index.html') &&
+					(~navigator.userAgent.indexOf('AppleWebKit/') &&
 						('loaded' == c.readyState || 'interactive' == c.readyState))),
 			  (b =
 					'complete' == c.readyState ||
@@ -3428,7 +3428,7 @@
 							},
 							d = c.SettingManager.s_Settings.account;
 						d && (a.a = d);
-						b.DownloadScript('BizibleAcct.html', a);
+						b.DownloadScript('BizibleAcct.js', a);
 					},
 					this
 				);

@@ -12,15 +12,21 @@
   },
   "keywords": [
     "RMT",
-    "Website",
-    "HTML",
-    "CSS",
-    "JS"
+    "Machinery Transport",
+    "RelMachTrans",
+    "Machinery",
+    "Broker",
+    "FTL",
+    "LTL"
   ],
   "author": "koop",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/koopcodes/RMTweb/issues"
   },
-  "homepage": "https://github.com/koopcodes/RMTweb#readme"
+  "homepage": "http://reliablemachinerytransport.com",
+  "dependencies": {
+    "lodash": "^4.17.11",
+    "typed.js": "^2.0.9"
+  }
 }

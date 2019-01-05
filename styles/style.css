@@ -821,8 +821,8 @@ blockquote footer::before {
 }
 .home-fullwidth .container-fluid,
 .home-fullwidth .container {
-	padding-top: 200px;
-	padding-bottom: 200px;
+	padding-top: 50px;
+	padding-bottom: 50px;
 }
 .home-fullscreen .home-middle-content {
 	position: relative;

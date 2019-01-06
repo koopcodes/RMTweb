@@ -46,15 +46,15 @@ $(function() {
 		}
 	});
 	var htmlBody = $('html,body');
-	// var smoothLinks = $('.nav li a, .home-middle-content a, .scroll-down-button');
-	// smoothLinks.on('click', function(e) {
-	// 	htmlBody.animate(
-	// 		{ scrollTop: $(this.hash).offset().top - 60 },
-	// 		800,
-	// 		'easeInOutQuart'
-	// 	);
-	// 	e.preventDefault();
-	// });
+	var smoothLinks = $('.nav li a, .home-middle-content a, .scroll-down-button');
+	smoothLinks.on('click', function(e) {
+		htmlBody.animate(
+			{ scrollTop: $(this.hash).offset().top - 60 },
+			800,
+			'easeInOutQuart'
+		);
+		e.preventDefault();
+	});
 	var goTopButton = '.go-top-button';
 	$(window).on('scroll', function() {
 		if ($(this).scrollTop() > 700) {

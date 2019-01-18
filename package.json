@@ -28,5 +28,8 @@
   "dependencies": {
     "lodash": "^4.17.11",
     "typed.js": "^2.0.9"
+  },
+  "devDependencies": {
+    "prettier": "^1.15.3"
   }
 }

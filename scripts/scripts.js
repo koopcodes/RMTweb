@@ -20,6 +20,7 @@ $(function() {
 			navbar.removeClass('navbar-shrink');
 		}
 	});
+
 	var nav = $('.nav');
 	var toggleBtn = $('.toggle-btn');
 	toggleBtn.on('click', function(e) {
@@ -45,6 +46,7 @@ $(function() {
 			toggleBtn.removeClass('toggle-close');
 		}
 	});
+	
 	var htmlBody = $('html,body');
 	var smoothLinks = $('.nav li a, .home-middle-content a, .scroll-down-button');
 	smoothLinks.on('click', function(e) {

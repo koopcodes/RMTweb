@@ -1,0 +1,26 @@
+{
+	"htmlWhitespaceSensitivity": "strict",
+	"endOfLine": "lf",
+	"trailingComma": "es5",
+	"tabWidth": 2,
+	"semi": true,
+	"singleQuote": true,
+	"bracketSpacing": false,
+	"jsxBracketSameLine": true,
+	"arrowParens": "always",
+	"proseWrap": "always",
+	"overrides": [
+		{
+			"files": ".prettierrc",
+			"options": {
+				"parser": "json"
+			}
+		},
+		{
+			"files": "*.html",
+			"options": {
+				"parser": "html"
+			}
+		}
+	]
+}

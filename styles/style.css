@@ -1638,13 +1638,15 @@ footer .background-solid-dark {
 }
 
 .spinner-wrapper {
+	display: block;
 	position: fixed;
 	top: 0;
 	left: 0;
 	right: 0;
 	bottom: 0;
 	background-color: #ffffff;
-	z-index: 999999;
+	text-indent: -9000px;
+	z-index: 9;
 }
 
 .owl-dots {

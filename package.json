@@ -26,7 +26,7 @@
   },
   "homepage": "http://reliablemachinerytransport.com",
   "dependencies": {
-    "lodash": "^4.17.11",
+    "lodash": "^4.17.13",
     "typed.js": "^2.0.9"
   },
   "devDependencies": {}
